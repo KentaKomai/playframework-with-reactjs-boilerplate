@@ -21,7 +21,7 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: 'style-loader!css-loader?modules&stylus-loader?paths=node_modules/bootstrap-stylus/stylus/'
       }
-
     ]
-  }
+  },
+  devtool: 'source-map'
 }
