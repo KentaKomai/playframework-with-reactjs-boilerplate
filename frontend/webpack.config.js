@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    app: './assets/sources/es6/qmobi/app.babel.js'
+    app: './assets/sources/es6/app.babel.js'
   },
   output: {
     path:__dirname + '/assets/dist/javascripts',
